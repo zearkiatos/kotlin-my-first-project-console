@@ -1,3 +1,4 @@
+import function.ifStatement.ifStatement
 const val PI:Double = 3.1416
 fun main(args: Array<String>) {
     println("Hello World!")
@@ -26,4 +27,7 @@ fun main(args: Array<String>) {
     val myName = "Pedro"
     val fullName = "$myName $lastname"
     println(fullName)
+    ifStatement("Maria")
+    ifStatement("")
+    ifStatement("Pepe")
 }
