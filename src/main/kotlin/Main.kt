@@ -1,4 +1,5 @@
 import function.ifStatement.ifStatement
+import function.whenStatement.*
 const val PI:Double = 3.1416
 fun main(args: Array<String>) {
     println("Hello World!")
@@ -30,4 +31,13 @@ fun main(args: Array<String>) {
     ifStatement("Maria")
     ifStatement("")
     ifStatement("Pepe")
+    whenStatement("Yellow")
+    whenStatement("Green")
+    whenStatement("Carmesi")
+
+    whenWithIntegers(200)
+    whenWithIntegers(501)
+    whenWithIntegers(404)
+    searchSizeShoes(41)
+    searchSizeShoes(45)
 }
