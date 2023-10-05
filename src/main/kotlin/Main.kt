@@ -1,5 +1,7 @@
 import function.ifStatement.ifStatement
 import function.whenStatement.*
+import function.whileDoWhile.whileDoWhile
+
 const val PI:Double = 3.1416
 fun main(args: Array<String>) {
     println("Hello World!")
@@ -40,4 +42,5 @@ fun main(args: Array<String>) {
     whenWithIntegers(404)
     searchSizeShoes(41)
     searchSizeShoes(45)
+    whileDoWhile(10)
 }
