@@ -19,3 +19,15 @@
 |a>=b       |c=a>=b      |public override operator fun compareTo(other: Int): Int|
 |a<=b       |c=a<=b      |public override operator fun compareTo(other: Int): Int|
 |a!=b       |c=a!=b      |public open operator fun equals(other: Any?): Boolean  |
+
+# How to declare a nullable variable
+
+```kt
+var secondName: String? = "Pedro"
+```
+
+# How to use a **safe-calls**
+
+```kt
+println(secondName?.length())
+```
