@@ -3,6 +3,7 @@ import function.whenStatement.*
 import function.whileDoWhile.whileDoWhile
 import function.cycles.forStatement
 import function.tryCatchStatement.tryCatchStatement
+import function.elvisStatement.elvisStatement
 
 const val PI:Double = 3.1416
 fun main(args: Array<String>) {
@@ -48,4 +49,5 @@ fun main(args: Array<String>) {
     val fruitsList = listOf("Apple", "Pear", "Raspberry", "Peach")
     forStatement(fruitsList)
     tryCatchStatement(null)
+    elvisStatement(null)
 }
