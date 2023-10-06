@@ -41,3 +41,32 @@ fun lists() {
     println(myArray)
     println("Array as list ${myArray.toList()}")
 }
+
+fun orderFunction() {
+    val randomNumbers = listOf(11,22,43,56,78,66)
+    println(randomNumbers)
+    val randomNumbersSorted = randomNumbers.sorted()
+    println(randomNumbersSorted)
+
+    val randomNumbersDesc = randomNumbersSorted.sortedDescending()
+    println(randomNumbersDesc)
+
+    // order by condition
+    val orderByCondition = randomNumbers.sortedBy { number -> number < 50 }
+    println(orderByCondition)
+
+    val randomSorted = randomNumbers.shuffled()
+    println(randomSorted)
+
+    val numbersInReverse = randomNumbers.reversed()
+    println(numbersInReverse)
+
+    // use map
+    val messagenumbers = randomNumbers.map{number->"Your number is $number"}
+    println(messagenumbers)
+
+    // filter function
+    val numberFiltered = randomNumbers.filter{number-> number>50}
+    println(numberFiltered)
+
+}
