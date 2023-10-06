@@ -4,6 +4,7 @@ import function.whileDoWhile.whileDoWhile
 import function.cycles.forStatement
 import function.tryCatchStatement.tryCatchStatement
 import function.elvisStatement.elvisStatement
+import function.lists.lists
 
 const val PI:Double = 3.1416
 fun main(args: Array<String>) {
@@ -50,4 +51,5 @@ fun main(args: Array<String>) {
     forStatement(fruitsList)
     tryCatchStatement(null)
     elvisStatement(null)
+    lists()
 }
