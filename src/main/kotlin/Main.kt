@@ -5,6 +5,7 @@ import function.cycles.forStatement
 import function.tryCatchStatement.tryCatchStatement
 import function.elvisStatement.elvisStatement
 import function.lists.lists
+import function.lists.orderFunction
 
 const val PI:Double = 3.1416
 fun main(args: Array<String>) {
@@ -52,4 +53,5 @@ fun main(args: Array<String>) {
     tryCatchStatement(null)
     elvisStatement(null)
     lists()
+    orderFunction()
 }
