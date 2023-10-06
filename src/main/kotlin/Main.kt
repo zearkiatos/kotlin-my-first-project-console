@@ -6,6 +6,7 @@ import function.tryCatchStatement.tryCatchStatement
 import function.elvisStatement.elvisStatement
 import function.lists.lists
 import function.lists.orderFunction
+import function.maps.maps
 
 const val PI:Double = 3.1416
 fun main(args: Array<String>) {
@@ -54,4 +55,5 @@ fun main(args: Array<String>) {
     elvisStatement(null)
     lists()
     orderFunction()
+    maps()
 }
