@@ -7,6 +7,7 @@ import function.elvisStatement.elvisStatement
 import function.lists.lists
 import function.lists.orderFunction
 import function.maps.maps
+import function.sets.sets
 
 const val PI:Double = 3.1416
 fun main(args: Array<String>) {
@@ -56,4 +57,5 @@ fun main(args: Array<String>) {
     lists()
     orderFunction()
     maps()
+    sets()
 }
