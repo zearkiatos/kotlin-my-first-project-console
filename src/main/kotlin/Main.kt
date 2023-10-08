@@ -9,6 +9,7 @@ import function.lists.orderFunction
 import function.maps.maps
 import function.sets.sets
 import function.functions.*
+import function.lambdas.lambda
 
 const val PI:Double = 3.1416
 fun main(args: Array<String>) {
@@ -62,4 +63,5 @@ fun main(args: Array<String>) {
     val randomPhrase = "In platzi never stop to learn".extendRandomCase()
     printPhrase(randomPhrase)
     printName(name= "Pedro", lastname= "Capriles")
+    lambda()
 }
