@@ -12,6 +12,7 @@ import function.functions.*
 import function.lambdas.lambda
 import function.highOrderFunction.superFunction
 import function.highOrderFunction.functionInception
+import function.lets.tryLet
 
 const val PI:Double = 3.1416
 fun main(args: Array<String>) {
@@ -75,4 +76,8 @@ fun main(args: Array<String>) {
     val inceptionResult:String = functionInception("Pedro")()
 
     println(inceptionResult)
+
+    tryLet()
+
+   
 }
