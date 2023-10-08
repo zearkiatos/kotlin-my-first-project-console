@@ -16,6 +16,7 @@ import function.lets.tryLet
 import function.with.withStatement
 import function.runFunction.runFunction
 import function.applyScopeFunction.applyFunction
+import function.alsoScopeFunction.alsoFunction
 
 const val PI:Double = 3.1416
 fun main(args: Array<String>) {
@@ -87,5 +88,7 @@ fun main(args: Array<String>) {
     runFunction()
 
     applyFunction()
+
+    alsoFunction()
    
 }
