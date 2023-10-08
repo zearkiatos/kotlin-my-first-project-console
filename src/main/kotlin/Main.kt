@@ -14,6 +14,7 @@ import function.highOrderFunction.superFunction
 import function.highOrderFunction.functionInception
 import function.lets.tryLet
 import function.with.withStatement
+import function.runFunction.runFunction
 
 const val PI:Double = 3.1416
 fun main(args: Array<String>) {
@@ -82,5 +83,6 @@ fun main(args: Array<String>) {
 
     withStatement()
 
+    runFunction()
    
 }
