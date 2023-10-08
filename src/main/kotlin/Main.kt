@@ -10,6 +10,8 @@ import function.maps.maps
 import function.sets.sets
 import function.functions.*
 import function.lambdas.lambda
+import function.highOrderFunction.superFunction
+import function.highOrderFunction.functionInception
 
 const val PI:Double = 3.1416
 fun main(args: Array<String>) {
@@ -64,4 +66,13 @@ fun main(args: Array<String>) {
     printPhrase(randomPhrase)
     printName(name= "Pedro", lastname= "Capriles")
     lambda()
+    val intialValueLength = superFunction(initialValue = "Hello!", block={
+        value -> value.length
+    })
+
+    println(intialValueLength)
+
+    val inceptionResult:String = functionInception("Pedro")()
+
+    println(inceptionResult)
 }
