@@ -25,3 +25,7 @@ fun String.extendRandomCase() : String {
 fun printPhrase(phrase: String) : Unit {
     println("Your phrase is: $phrase")
 }
+
+fun printName(name: String, surname: String = "", lastname: String) : Unit {
+    println("My fullname is $name $surname $lastname")
+}

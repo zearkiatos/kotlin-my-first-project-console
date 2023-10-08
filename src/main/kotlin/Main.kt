@@ -61,4 +61,5 @@ fun main(args: Array<String>) {
     sets()
     val randomPhrase = "In platzi never stop to learn".extendRandomCase()
     printPhrase(randomPhrase)
+    printName(name= "Pedro", lastname= "Capriles")
 }
